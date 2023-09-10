@@ -107,18 +107,9 @@ div.card {
     margin-right: 10px; /* Add spacing between cards */
     background-color: #c8b8e7; /* Card background color */
     border: 1px solid #ccc; /* Card border */
-    border-radius: 5px; /* Card border radius */
+    border-radius: 15px; /* Card border radius */
     display: inline-block; /* Display cards inline */
     text-align: center; /* Center card content */
     line-height: 30px; /* Center vertically */
 }
 
-div.card h1{
-    font-size: 18px; /* Customize heading font size */
-    margin: 10px 0;
-}
-
-div.card P{
-    font-size: 14px; /* Customize heading font size */
-    margin: 10px 0;
-}
