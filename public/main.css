@@ -110,7 +110,7 @@ div.card {
     border-radius: 5px; /* Card border radius */
     display: inline-block; /* Display cards inline */
     text-align: center; /* Center card content */
-    line-height: 300px; /* Center vertically */
+    line-height: 30px; /* Center vertically */
 }
 
 div.card h1{
