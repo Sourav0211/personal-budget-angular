@@ -89,19 +89,19 @@ footer {
 .skip:focus {
     margin-top: 0;
 }
-
+/*
 .center {
     text-align: center;
-}
+}*/
 
-.scrolling-wrapper {
+div.scrolling-wrapper {
     width: 100%; /* Set the width as needed */
     white-space: nowrap; /* Prevent cards from wrapping to the next line */
     overflow-x: auto; /* Enable horizontal scrolling */
     display: flex; /* Display cards in a row */
 }
 
-.card {
+div.card {
     width: 200px; /* Set the width of each card */
     height: 600px; /* Set the height of each card */
     margin-right: 10px; /* Add spacing between cards */
@@ -113,12 +113,12 @@ footer {
     line-height: 300px; /* Center vertically */
 }
 
-.card h1{
+div.card h1{
     font-size: 18px; /* Customize heading font size */
     margin: 10px 0;
 }
 
-.card P{
+div.card P{
     font-size: 14px; /* Customize heading font size */
     margin: 10px 0;
 }
