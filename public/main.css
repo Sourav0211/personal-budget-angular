@@ -109,7 +109,16 @@ footer {
     border: 1px solid #ccc; /* Card border */
     border-radius: 5px; /* Card border radius */
     display: inline-block; /* Display cards inline */
-    text-align: justify; /* Center card content */
+    text-align: center; /* Center card content */
     line-height: 300px; /* Center vertically */
 }
 
+.card h1{
+    font-size: 18px; /* Customize heading font size */
+    margin: 10px 0;
+}
+
+.card P{
+    font-size: 14px; /* Customize heading font size */
+    margin: 10px 0;
+}
