@@ -105,11 +105,11 @@ footer {
     width: 200px; /* Set the width of each card */
     height: 300px; /* Set the height of each card */
     margin-right: 10px; /* Add spacing between cards */
-    background-color: #f0f0f0; /* Card background color */
+    background-color: #9776db; /* Card background color */
     border: 1px solid #ccc; /* Card border */
     border-radius: 5px; /* Card border radius */
     display: inline-block; /* Display cards inline */
-    text-align: center; /* Center card content */
+    text-align: justify; /* Center card content */
     line-height: 300px; /* Center vertically */
 }
 
