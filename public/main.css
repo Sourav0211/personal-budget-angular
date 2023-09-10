@@ -103,9 +103,9 @@ footer {
 
 .card {
     width: 200px; /* Set the width of each card */
-    height: 300px; /* Set the height of each card */
+    height: 600px; /* Set the height of each card */
     margin-right: 10px; /* Add spacing between cards */
-    background-color: #9776db; /* Card background color */
+    background-color: #c8b8e7; /* Card background color */
     border: 1px solid #ccc; /* Card border */
     border-radius: 5px; /* Card border radius */
     display: inline-block; /* Display cards inline */
