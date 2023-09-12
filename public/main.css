@@ -129,4 +129,9 @@ aside.card {
     text-align: center; 
     line-height: 30px;
 }
-
+figure.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
