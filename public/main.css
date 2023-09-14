@@ -112,23 +112,7 @@ section.card {
     text-align: center; 
     line-height: 30px;
 }
-aside.scrolling-wrapper {
-    width: 100%; 
-    white-space: nowrap; 
-    overflow-x: auto; 
-    display: flex; 
-}
-aside.card {
-    width: 300px;
-    height:250px;
-    margin-right:50px;
-    background-color:#bcc6ee;
-    border: 2px solid #bdcff8; 
-    border-radius: 15px; 
-    display: inline-block; 
-    text-align: center; 
-    line-height: 30px;
-}
+
 figure.center {
     display: block;
     margin-left: auto;
