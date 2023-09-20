@@ -1,9 +1,12 @@
 const express = require('express');
 const fs = require('fs');
+const cors=require('cors');
 const app = express();
 const port = 3000;
 
-app.use( '/', express.static('public'));
+
+app.use(cors());
+//  app.use( '/', express.static('public'));
 
 /*const budget = {
     
@@ -30,9 +33,9 @@ app.use( '/', express.static('public'));
 const myBudget= JSON.parse(fs.readFileSync('Budget_Server.json'));
 const data= JSON.parse(fs.readFileSync('my-data.json'));
                 
-app.get('/home',(req,res) => {
+/*app.get('/home',(req,res) => {
     res.send('Hello World');
-});
+});*/
 
 app.get('/budget' , (req,res) => {
     res.json(myBudget);
@@ -42,5 +45,5 @@ app.get('/earning' , (req,res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`);
+    console.log(`API app listening at http://localhost:${port}`);
 });
