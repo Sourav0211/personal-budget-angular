@@ -366,7 +366,7 @@ body {
   font-family: Tahoma, Arial;
 }
 
-nav {
+/*nav {
   width: 100%;
   background-color: #4d5791;
   height: 44px;
@@ -394,7 +394,7 @@ nav ul li a {
 nav ul li a:hover  {
   background-color: white;
   color: #4d5791;
-}
+}*/
 
 div.hero {
   height: 350px;
@@ -406,16 +406,21 @@ div.hero {
   padding-top: 40px;
 }
 
-div.hero h1,
+
+div.hero h1 {
+  text-align: center;
+  margin: 0;
+}
+
 div.hero h2 {
   text-align: center;
   margin: 0;
 }
 
 div.hero h1 {
-  color: #fff;
-  font-size: 4.2em;
-  margin-bottom: 20px;
+  color: #778cdd;
+  font-size: 2.2em;
+  margin-bottom: 10px;
 }
 
 div.hero h2 {
